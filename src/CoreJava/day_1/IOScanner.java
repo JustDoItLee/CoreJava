@@ -37,5 +37,14 @@ public class IOScanner {
         for (int i = 1; i < k; i++) {
             lotteryOdds = lotteryOdds * (n - i + 1) / i;
         }
+        System.out.println(lotteryOdds);
+
+        //switch
+        String input = "hello";
+        switch (input.toLowerCase()){
+            case "hello":
+                System.out.println("hello world!");
+                break;
+        }
     }
 }
