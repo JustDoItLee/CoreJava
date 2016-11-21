@@ -19,14 +19,23 @@ public class IOScanner {
 //        Console console = System.console();
 //        String username = console.readLine("what's your username?");
 //        char[] password = console.readPassword("password");
-        double x = 10000.0/3.0;
+        double x = 10000.0 / 3.0;
         System.out.println(x);
-        System.out.printf("%8.2f",x);
-        System.out.printf("%,.2f\n",10000.0/3.0);
-        System.out.printf("%tc\n",new Date());//时间格式
+        System.out.printf("%8.2f", x);
+        System.out.printf("%,.2f\n", 10000.0 / 3.0);
+        System.out.printf("%tc\n", new Date());//时间格式
         System.out.println(System.getProperty("OneSimpleCase.class"));
-        for (int i = 10;i>0;i--){
-            System.out.println("counting down----"+i);
+        for (int i = 10; i > 0; i--) {
+            System.out.println("counting down----" + i);
+        }
+        //求n*(n-1)*(n-2)*...*(n-k+1)/1*2*3*...*k;
+        int lotteryOdds = 1;
+        System.out.println("输入k");
+        int k = in.nextInt();
+        System.out.println("输入n");
+        int n = in.nextInt();
+        for (int i = 1; i < k; i++) {
+            lotteryOdds = lotteryOdds * (n - i + 1) / i;
         }
     }
 }
