@@ -16,6 +16,9 @@ public class Employee {
         salary = s;
         id = 0;
     }
+    public Employee(){
+
+    }
 
     public String getName() {
         return name;
