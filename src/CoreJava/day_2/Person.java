@@ -4,9 +4,11 @@ package CoreJava.day_2;
  * @author 李智
  * @date 2016/11/25
  */
-public class Person {
+public abstract class Person {
     private String name;
     private int age;
+
+    public abstract String getDescription();
 
     public String getName() {
         return name;
