@@ -2,33 +2,38 @@ package CoreJava.day_2;
 
 /**
  * @author 李智
- * @date 2016/11/28
+ * @date 2016/12/05
  */
-public class Student extends Person {
-    private String major;
+public class Student {
+    private String name;
+    private int score;
 
-    public Student(String major, String name, int age) {
-        super(name, age);
-        this.major = major;
+    public Student() {
+        name = "N/A";
     }
 
-    public String getMajor() {
-        return major;
+    public Student(String name, int score) {
+        this.name = name;
+        this.score = score;
     }
 
-    public void setMajor(String major) {
-        this.major = major;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    @Override
-    public String getDescription() {
-        return "i am a student for" + major;
+    public void setScore(int score) {
+        this.score = score;
     }
 
-    @Override
+    public String getName() {
+        return name;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
     public String toString() {
-        return "Student{" +
-                "name='" + getName() + '\'' + "major='" + major + '\'' +
-                '}';
+        return name + ":" + score;
     }
 }

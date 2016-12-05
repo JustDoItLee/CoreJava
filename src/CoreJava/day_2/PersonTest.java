@@ -6,8 +6,8 @@ package CoreJava.day_2;
  */
 public class PersonTest {
     public static void main(String[] args) {
-        Person[] person = new Person[1];
-        person[0] = new Student("math","jack",11);
-        System.out.println(person[0].toString());
+//        Person[] person = new Person[1];
+//        person[0] = new Student("math","jack",11);
+//        System.out.println(person[0].toString());
     }
 }
