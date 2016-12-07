@@ -14,7 +14,12 @@ import java.util.Date;
  */
 public class AnnoymousInnerClassTest {
     public static void main(String[] args) {
+        TalkingClock clock = new TalkingClock(1000, true);
+        clock.start();
 
+        //选择0退出
+        JOptionPane.showMessageDialog(null, "quit?");
+        System.exit(0);
     }
 }
 
