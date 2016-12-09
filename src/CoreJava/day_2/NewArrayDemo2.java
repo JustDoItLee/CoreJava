@@ -10,7 +10,7 @@ public class NewArrayDemo2 {
     public static void main(String[] args) {
         Class c = String.class;
 
-        // 打算建立一個3*4陣列
+        // 打算建立一个3*4数组
         int[] dim = new int[]{3, 4};
         Object objArr = Array.newInstance(c, dim);
 
