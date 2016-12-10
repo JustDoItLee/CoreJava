@@ -14,7 +14,7 @@ public class StackTraceTest {
         factorial(n);
     }
 
-    //阶乘
+    //阶乘计算
     public static int factorial(int n) {
         System.out.println("factorial:(" + n + "):");
         Throwable t = new Throwable();
