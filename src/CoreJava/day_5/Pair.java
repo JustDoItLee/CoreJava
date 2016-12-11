@@ -3,6 +3,8 @@ package CoreJava.day_5;
 /**
  * @author 李智
  * @date 2016/12/11
+ *
+ * 简单的泛型测试
  */
 public class Pair<T> {
     private T first;
