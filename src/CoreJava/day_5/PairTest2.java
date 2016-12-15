@@ -10,9 +10,9 @@ import java.util.GregorianCalendar;
 public class PairTest2 {
     public static void main(String[] args) {
         GregorianCalendar[] birthdays = {
-                new GregorianCalendar(2001, Calendar.MONTH, 9),
+                new GregorianCalendar(2001, Calendar.DECEMBER, 9),
                 new GregorianCalendar(2021, Calendar.MONTH, 10),
-                new GregorianCalendar(2004, Calendar.MONTH, 9),
+                new GregorianCalendar(2004, Calendar.OCTOBER, 9),
                 new GregorianCalendar(1998, Calendar.MONTH, 9)
         };
         Pair<GregorianCalendar> mm = ArrayAlg.minmax(birthdays);
