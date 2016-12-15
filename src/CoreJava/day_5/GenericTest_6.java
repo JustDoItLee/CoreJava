@@ -14,7 +14,7 @@ public class GenericTest_6 {
 
         //The method getData(Box<Number>) in the type GenericTest is
         //not applicable for the arguments (Box<Integer>)
-        getData(age);   // 1
+//        getData(age);   // 1
 
     }
 
