@@ -7,7 +7,7 @@ package CoreJava.day_5;
 public class GenericTest_8 {
     public static void main(String[] args) {
 
-        Box<String> name = new Box<String>("corn");
+        Box<String> name = new Box<String>("core");
         Box<Integer> age = new Box<Integer>(712);
         Box<Number> number = new Box<Number>(314);
 
