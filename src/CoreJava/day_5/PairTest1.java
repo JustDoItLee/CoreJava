@@ -3,6 +3,8 @@ package CoreJava.day_5;
 /**
  * @author 李智
  * @date 2016/12/11
+ *
+ * 泛型demo
  */
 public class PairTest1 {
     public static void main(String[] args) {
