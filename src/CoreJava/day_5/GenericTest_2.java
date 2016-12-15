@@ -17,8 +17,8 @@ public class GenericTest_2 {
         */
 
         List<String> list = new ArrayList<String>();
-        list.add("qqyumidi");
-        list.add("corn");
+        list.add("justdoit");
+        list.add("core");
         //list.add(100);   // 1  提示编译错误
 
         for (int i = 0; i < list.size(); i++) {
