@@ -9,7 +9,7 @@ import CoreJava.day_2.Manager;
  */
 public class PairTest3 {
     public static void main(String[] args) {
-        //dosomething
+        //实验代码
     }
 
     public static void printBuddies(Pair<? extends Employee> p) {
