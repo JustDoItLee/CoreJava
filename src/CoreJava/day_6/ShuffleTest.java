@@ -7,7 +7,6 @@ import java.util.List;
 /**
  * @author 李智
  * @date 2016/12/22
- *
  */
 public class ShuffleTest {
     public static void main(String[] args) {
