@@ -9,7 +9,6 @@ import java.util.TreeSet;
  * @date 2016/12/20
  */
 public class TreeSetTest {
-
     public static void main(String[] args) {
         SortedSet<Item> parts = new TreeSet<>();
         parts.add(new Item("Toaster", 1234));
