@@ -66,6 +66,7 @@ public class Bank {
          }
 
      }*/
+
     public synchronized double getTotalBalance() {
         double sum = 0;
         for (double a : accounts) {
