@@ -91,6 +91,7 @@ class SearchTask implements Runnable {
         }
     }
 
+
     public void search(File file) throws IOException {
         try (Scanner in = new Scanner(file)) {
             int lineNumber = 0;
