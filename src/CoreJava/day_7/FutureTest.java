@@ -38,10 +38,18 @@ class MatchCounter implements Callable<Integer> {
     private File directory;
     private String keyword;
     private int count;
+    private ExecutorService pool;
+
 
     public MatchCounter(File directory, String keyword) {
         this.directory = directory;
         this.keyword = keyword;
+    }
+
+    public MatchCounter(File directory, String keyword, ExecutorService pool) {
+        this.directory = directory;
+        this.keyword = keyword;
+        this.pool = pool;
     }
 
     @Override
