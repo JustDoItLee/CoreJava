@@ -9,7 +9,7 @@ import java.util.concurrent.RecursiveTask;
  */
 public class ForkJoinTest {
     public static void main(String[] args) {
-        final int SIZE = 10000000;
+        final int SIZE = 1000000;
         double[] numbers = new double[SIZE];
         for (int i = 0; i < SIZE; i++) numbers[i] = Math.random();
         Counter counter = new Counter(numbers, 0, numbers.length, new Filter() {
